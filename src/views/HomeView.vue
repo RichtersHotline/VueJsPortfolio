@@ -35,10 +35,12 @@
 <script>
 // @ is an alias to /src
 import LandingPage from '@/components/LandingPage.vue'
+import AboutPage from "@/components/AboutPage.vue"
 export default {
   name: 'HomeView',
   components: {
-    LandingPage
+    LandingPage,
+    AboutPage
  
   }
 }
