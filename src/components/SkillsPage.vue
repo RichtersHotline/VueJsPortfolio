@@ -42,20 +42,20 @@
 
 
 <script setup>
-// import {computed, onMounted} from "vue"
-import {useStore} from "vuex"
-// import LoadingSpinner from "./LoadingSpinner.vue"
+// // import {computed, onMounted} from "vue"
+// import {useStore} from "vuex"
+// // import LoadingSpinner from "./LoadingSpinner.vue"
 
-const store = useStore()
-// const skills = computed(() => store.state.skills)
+// const store = useStore()
+// // const skills = computed(() => store.state.skills)
 
 
-onMounted(() => {
+// onMounted(() => {
    
-    store.dispatch("getSkills")
-    // repeat()
+//     store.dispatch("getSkills")
+//     // repeat()
 
-})
+// })
 </script>
 
 <style>
