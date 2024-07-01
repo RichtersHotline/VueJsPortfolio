@@ -3,11 +3,10 @@
 
 /* app styling */
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
+    
+
+    background-color: #120914;
+
   }
   
   nav {
@@ -31,10 +30,28 @@ padding: 0;
 box-sizing:border-box;
 
 }
+/* All Elements */
+h1 ~ h2 {
+
+    font-weight:lighter;
+        }
+    
+        h3 {
+          color:white;
+font-weight:bold;
+text-shadow:1px 1px fuchsia;
+
+        }
+
+:is(h1, h2, h3, h4) {
+    text-shadow:3px 3px 10px fuchsia; 
+    color:white !important;
+
+}
 
 /* Navbar styling */
 :is(.navbar, footer) {
-    background-color:#543656;
+    background-color:#271927;
 }
 a {
 
@@ -76,6 +93,9 @@ text-decoration: underline;
                 width:30rem;
                 object-fit:cover;
                 object-position:center;
+                outline:2px solid fuchsia;
+                box-shadow:5px 5px 10px fuchsia;
+
             
                 }
             img[alt="logo"] {
@@ -90,4 +110,15 @@ text-decoration: underline;
                         object-fit:cover;
                         object-position:center;
         
+            }
+            /* Media queries */
+            @media only screen and (max-width: 720px) {
+              
+                .respon {
+
+
+        flex-direction:column;
+                }
+
+
             }
