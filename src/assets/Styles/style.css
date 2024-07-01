@@ -5,8 +5,7 @@
 #app {
     
 
-    background-color: #120914;
-
+    background-color:#170217;
   }
   
   nav {
@@ -194,3 +193,20 @@ text-align:center;
 
    }
 
+/* Skills Styling */
+
+img[alt="Skimage"] {
+    height:4rem;
+            width:4rem;
+            object-fit:cover;
+            object-position:center;
+         
+}
+.SkillsCon {
+    outline:3px solid fuchsia;
+    box-shadow:5px 5px 10px fuchsia;
+
+    background-color:#170217;
+    width:50%;
+    margin:auto;
+ }
