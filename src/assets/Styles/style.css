@@ -1,0 +1,95 @@
+/* Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+
+/* app styling */
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  nav {
+    padding: 30px;
+  }
+  
+  nav a {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  nav a.router-link-exact-active {
+    color: #42b983;
+  }
+  /* Universal Selector */
+  *,
+*::before,
+*::after {
+margin:0;
+padding: 0;
+box-sizing:border-box;
+
+}
+
+/* Navbar styling */
+:is(.navbar, footer) {
+    background-color:#543656;
+}
+a {
+
+    text-decoration:none;
+}
+
+
+
+.navbar {
+
+position: -webkit-sticky;
+position:sticky;
+top:0;
+z-index:9999;
+}
+
+:is(.nav-link) {
+
+    color:white;
+    }
+    .nav-item.nav-item.nav-item a {
+ 
+        color:white;
+        font-family: "Sedan SC", serif;
+        font-style: normal;
+        text-shadow:0.4px 0.4px fuchsia;
+    
+      }    
+    .nav-link:hover {
+
+color:#9d5ea2;
+text-decoration: underline;
+
+
+    }
+    /* image styling */
+    img[alt="LandingPagePhoto"] {
+        height:30rem;
+                width:30rem;
+                object-fit:cover;
+                object-position:center;
+            
+                }
+            img[alt="logo"] {
+        
+            width:9rem;
+            object-fit:cover;
+            object-position:center;
+        }
+            img[alt="AboutPhoto"] {
+                height:20.5rem;
+                        width:20.5rem;
+                        object-fit:cover;
+                        object-position:center;
+        
+            }
