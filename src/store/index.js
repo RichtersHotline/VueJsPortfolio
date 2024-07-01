@@ -4,20 +4,23 @@ import axios from "axios"
 const folioData = "https://richtershotline.github.io/VueEOMP/data"
 export default createStore({
   state: {
-    jobTitle:null
-
+    jobTitle:null,
+    aboutMe:null,
   },
   getters: {
-    setJobTitle(state, value) {
-      state.jobTitle = value
-  
-      },
+   
   },
   mutations: {
     setJobTitle(state, value) {
       state.jobTitle = value
   
       },
+      setAbout(state, value) {
+        state.aboutMe = value
+    
+        },
+     
+
   },
   actions: {
     async getJobTitle(context) {
@@ -33,7 +36,21 @@ export default createStore({
   
        
   
-      }
+      },
+      async getAbout(context) {
+        try {
+          let {About} = await (await axios.get(folioData)).data
+          context.commit("setAbout", About)
+       
+        }catch(e) {
+    console.log("Nope")
+  
+    alert("Cannot be performed")
+
+        }
+      
+    },
+
   },
   modules: {
   }

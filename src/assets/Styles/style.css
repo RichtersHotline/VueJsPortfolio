@@ -36,19 +36,42 @@ h1 ~ h2 {
     font-weight:lighter;
         }
     
+        h2 {
+
+            font-weight:lighter !important;
+
+        }
+
         h3 {
           color:white;
 font-weight:bold;
 text-shadow:1px 1px fuchsia;
 
         }
+        h2 {
 
+            font-weight:lighter;
+        }
 :is(h1, h2, h3, h4) {
     text-shadow:3px 3px 10px fuchsia; 
     color:white !important;
 
 }
+p { 
 
+    color:white !important;
+    text-shadow:0.4px 0.4px fuchsia;
+
+}
+.breaker {
+   background-color:white;
+    width:50%;
+    height:1px;
+    border:2px solid white;
+    margin:auto;
+    box-shadow:5px 5px 10px fuchsia;
+margin-block:10px;
+}
 /* Navbar styling */
 :is(.navbar, footer) {
     background-color:#271927;
@@ -98,6 +121,15 @@ text-decoration: underline;
 
             
                 }
+                img[alt="HobPhotos"] {
+                    width:25rem;
+                    height:25rem;
+                    margin-top:0.4rem;
+                  
+                  box-shadow:5px 5px 10px fuchsia;
+                  outline:2px solid fuchsia;
+                        
+                            }
             img[alt="logo"] {
         
             width:9rem;
@@ -109,7 +141,8 @@ text-decoration: underline;
                         width:20.5rem;
                         object-fit:cover;
                         object-position:center;
-        
+                        outline:2px solid fuchsia;
+                        box-shadow:5px 5px 10px fuchsia;
             }
             /* Media queries */
             @media only screen and (max-width: 720px) {
@@ -121,4 +154,43 @@ text-decoration: underline;
                 }
 
 
+                .abouttxt p {
+
+                    max-width:80%;
+                    text-align: justify;
+                    word-wrap:normal;
+                    text-justify:none;
+                    word-spacing: normal;
+
+                }
+                .Hobbies {
+
+                    flex-direction:column;
+                
+                }
+                .Misc {
+                    flex-direction:column;
+
+
+                }
             }
+
+
+            /* About Styling */
+
+            .abouttxt p {
+
+                
+       width:30rem;    
+     margin:auto;
+    text-align: justify;
+    text-justify: inter-word;
+    word-wrap: break-word;
+
+            }
+   .Languages {
+
+text-align:center;
+
+   }
+
