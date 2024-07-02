@@ -2,7 +2,6 @@
     <div class="card" style="width: 18rem;">
     <div class="header">
 <slot name="cardHeader"></slot>
-
     </div>
      <div class="card-body">
     <slot name="cardBody"></slot>
