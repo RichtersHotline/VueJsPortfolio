@@ -82,6 +82,31 @@ a {
     text-decoration:none;
 }
 
+/* Animations */
+@keyframes BoardFade {
+
+    0% {
+        background-color:#170217;
+    
+    }
+   
+    100% {
+       
+        background-color:#310335;
+        
+    }
+}
+@keyframes SkimageAnim {
+from {
+
+opacity:0
+}
+to {
+
+opacity:1
+}
+
+}
 /* Landing Page Styling */
 
 .BG {
@@ -200,6 +225,13 @@ text-decoration: underline;
                     background-image:none;
                     
                 }
+                .Skimages {
+
+   display:flex;
+   flex-direction:column;
+                    
+
+                }
                 
             }
 
@@ -229,12 +261,22 @@ img[alt="Skimage"] {
             width:4rem;
             object-fit:cover;
             object-position:center;
-         
+        
+    
+}
+img[alt="Skimage"]:hover {
+    outline:2px solid fuchsia;
+
+    background-color:rgba(255, 0, 255, 0.532)
+
 }
 .SkillsCon {
     outline:3px solid fuchsia;
     box-shadow:5px 5px 10px fuchsia;
-
+    animation: BoardFade ease 4s;
+animation-iteration-count: infinite;
+animation-fill-mode:forwards;
+animation-direction:alternate;
     background-color:#170217;
     width:50%;
     margin:auto;
