@@ -24,7 +24,10 @@ skills:null
           state.skills = value
       
           },
-
+          setEducation(state, value) {
+            state.education = value
+        
+            },
   },
   actions: {
     async getJobTitle(context) {
@@ -66,7 +69,18 @@ skills:null
     
       }
     
-    },
+    },  async getEducation(context) {
+      try {
+        let {Education} = await (await axios.get(folioData)).data
+        context.commit("setEducation", Education)
+     
+      }catch(e) {
+  
+        alert("Cannot be performed")
+  
+      }
+    
+  },
 
   },
   modules: {
