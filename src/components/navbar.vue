@@ -1,4 +1,5 @@
 <template>
+    
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <router-link class="navbar-brand" to="/"><img src="https://richtershotline.github.io/Pimages/Images/Logo.png" class="img-fluid" alt="logo" loading="lazy"></router-link>
