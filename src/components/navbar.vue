@@ -17,15 +17,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#resume">Resume</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#education">Education</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#experience">Work Experience</a>
-              </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#project">Projects</a>
               </li>

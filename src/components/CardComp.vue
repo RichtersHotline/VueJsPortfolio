@@ -41,6 +41,7 @@ h3.card-title {
     outline:2px solid fuchsia;
     box-shadow:5px 5px 10px fuchsia;
     width:18rem;
+    margin-bottom:17px;
 }
 .card:hover {
 
