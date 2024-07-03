@@ -10,6 +10,7 @@ skills:null,
 education:null,
 experiences:null,
 projects:null,
+monials:null,
 
 
   },
@@ -41,6 +42,10 @@ projects:null,
                 state.projects = value
             
                 },
+                setQuotes(state, value) {
+                  state.monials = value
+              
+                  },
   },
   actions: {
     async getJobTitle(context) {
@@ -119,6 +124,18 @@ projects:null,
   
   },
 
+  async getMonials(context) {
+    try {
+      let {Testimonials} = await (await axios.get(folioData)).data
+      context.commit("setQuotes", Testimonials)
+   
+    }catch(e) {
+  
+      alert("Cannot be performed")
+
+    }
+  
+  },
   },
   modules: {
   }
