@@ -326,3 +326,39 @@ animation-direction:alternate;
     background-color:#170217;
 
 }
+/* Project Styling */
+img[alt="Proimage"] {
+  
+    object-fit:cover;
+    object-position:center;
+    height:15rem;
+    width:100%
+        
+         
+}
+.ProCon {
+
+    width:90%;
+    margin:auto;
+}
+.btnPro {
+
+    border:none;
+    outline:2px solid fuchsia;
+    box-shadow:1px 1px 5px fuchsia;
+    background-color:#170217;
+    color:#9E8BA0;
+    width:40%;
+  margin-inline:8px;
+    padding:2px;
+    font-family:arial;
+&:hover {
+    background-color:#251627;
+    color:white;
+
+}
+
+}
+.Buttons {
+  
+}
