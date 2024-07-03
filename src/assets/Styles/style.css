@@ -12,6 +12,8 @@
   
   nav {
     padding: 30px;
+   position:fixed;
+   top:0;
   }
   
   nav a {
@@ -73,9 +75,21 @@ p {
     box-shadow:5px 5px 10px fuchsia;
 margin-block:10px;
 }
+::-webkit-scrollbar {
+
+    display:none;
+
+}
 /* Navbar styling */
 :is(.navbar, footer) {
     background-color:#1d041d;
+    
+
+}
+:is(.navbar) {
+
+
+
 }
 a {
 
@@ -130,13 +144,7 @@ opacity:1
 
     opacity:1 !important;
 }
-.navbar {
 
-position: -webkit-sticky;
-position:sticky;
-top:0;
-z-index:9999;
-}
 
 :is(.nav-link) {
 
@@ -232,6 +240,13 @@ text-decoration: underline;
                     
 
                 }
+                .Cards {
+
+                    display:flex;
+                    flex-direction:column;
+                    width:1rem;
+
+                }
                 
             }
 
@@ -282,4 +297,18 @@ animation-direction:alternate;
     margin:auto;
  }
  /* Education Styling */
- 
+ .Cards {
+
+    display:flex;
+    margin-left:10px;
+    padding:10px;
+
+}
+    img[alt="Eduimage"] {
+    
+    object-fit:cover;
+    height:15rem;
+    width:100%
+        
+         
+    }

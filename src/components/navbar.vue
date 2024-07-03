@@ -52,6 +52,12 @@ export default {
 
 
 <style scoped>
+.navbar {
 
+    position: -webkit-sticky;
+    position:sticky;
+    top:0;
+    z-index:9999;
+    }
 </style>
 
