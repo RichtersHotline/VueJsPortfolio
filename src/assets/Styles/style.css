@@ -89,11 +89,7 @@ margin-block:10px;
     
 
 }
-:is(.navbar) {
 
-
-
-}
 a {
 
     text-decoration:none;
@@ -358,7 +354,4 @@ img[alt="Proimage"] {
 
 }
 
-}
-.Buttons {
-  
 }
