@@ -6,7 +6,10 @@ export default createStore({
   state: {
     jobTitle:null,
     aboutMe:null,
-skills:null
+skills:null,
+education:null,
+experiences:null
+
   },
   getters: {
    
@@ -28,6 +31,10 @@ skills:null
             state.education = value
         
             },
+            setExperiences(state, value) {
+              state.experiences = value
+          
+              },
   },
   actions: {
     async getJobTitle(context) {
@@ -80,6 +87,18 @@ skills:null
   
       }
     
+  },
+  async getExperiences(context) {
+    try {
+      let {experiences} = await (await axios.get(folioData)).data
+      context.commit("setExperiences", experiences)
+   
+    }catch(e) {
+  
+      alert("Cannot be performed")
+  
+    }
+  
   },
 
   },

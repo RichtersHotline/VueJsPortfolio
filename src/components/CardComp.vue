@@ -31,7 +31,7 @@ h3.card-title {
 
 }
 .card-text {
-    background-color:#1f121f;
+    background-color:#864386;
 }
 .card {
     opacity:0.5;

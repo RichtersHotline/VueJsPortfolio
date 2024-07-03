@@ -8,10 +8,14 @@
     </section>
     <section class="row" id="skills">
       <SkillsPage/>
+    </section>
       <section class="row" id="Education">
         <EducationPage/>
         
       </section>
+      <section class="row" id="Experience">
+        <WorkExpPage/>
+        
       </section>
     <section class="row" id="resume">
     
@@ -20,10 +24,7 @@
     <section class="row" id="project">
     
     </section>
-    <section class="row" id="Experience">
-      <ExpPage/>
-      
-    </section>
+    
     <section class="row" id="testimonials">
     <MonialComp/>
     </section>
@@ -39,13 +40,15 @@ import LandingPage from '@/components/LandingPage.vue'
 import AboutPage from "@/components/AboutPage.vue"
 import SkillsPage from "@/components/SkillsPage.vue"
 import EducationPage from "@/components/EducationPage.vue"
+import WorkExpPage from "@/components/WorkExpPage.vue"
 export default {
   name: 'HomeView',
   components: {
     LandingPage,
     AboutPage,
     SkillsPage,
-    EducationPage
+    EducationPage,
+    WorkExpPage
  
   }
 }

@@ -15,7 +15,7 @@
                     </template>
                        <template #cardBody>
                         <h3>{{Edu.School}}</h3>
-                        <p>{{Edu.Duration}}</p>
+                        <p class="card-text">{{Edu.Duration}}</p>
                        </template> 
                     </cardComp>
                       </div>
