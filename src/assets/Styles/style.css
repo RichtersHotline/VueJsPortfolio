@@ -55,7 +55,7 @@ text-shadow:1px 1px fuchsia;
 
             font-weight:lighter;
         }
-:is(h1, h2, h3, h4) {
+:is(h1, h2, h3, h4, h5) {
     text-shadow:3px 3px 10px fuchsia; 
     color:white !important;
 
@@ -312,3 +312,8 @@ animation-direction:alternate;
         
          
     }
+.card-text {
+
+    background-color:#170217;
+
+}
