@@ -253,6 +253,56 @@ text-decoration: underline;
                     flex-direction:column;
                    padding:10px;
                 }
+               
+                
+                .MonialImg:hover {
+                
+                
+                
+                }
+                .hovering {
+                 
+                
+                }
+                
+                .hovering:hover {
+                
+                }
+                
+                .hovering:hover .quota {
+        
+                 
+                }
+                
+                
+                .Monials {
+                    
+                    margin:auto;
+                }
+                .MonialRow {
+                   padding-bottom:20px;
+                
+                }
+                .quota {
+                
+                    display:block;
+                    width:100%;
+                    height:auto;
+                    text-align:justify;
+                    word-wrap:break-word;
+                }
+                
+                .name {
+                
+                 width:100%;
+                 word-wrap:break-word;
+                 font-size:12px;
+                }
+                .name:hover {
+                
+                    color:fuchsia !important;
+                   -webkit-text-stroke:0.5px rgb(246, 0, 0);
+                }
             }
 
 
@@ -340,6 +390,7 @@ img[alt="Proimage"] {
 .btnPro {
 
     border:none;
+    
     outline:2px solid fuchsia;
     box-shadow:1px 1px 5px fuchsia;
     background-color:#170217;
@@ -348,10 +399,72 @@ img[alt="Proimage"] {
   margin-inline:8px;
     padding:2px;
     font-family:arial;
+    transition:0.8s;
 &:hover {
     background-color:#251627;
     color:white;
 
 }
 
+}
+/* Monial Styling */
+
+img[alt="Testimage"] {
+  
+    object-fit:cover;
+    object-position:center;
+    height:40rem;
+         
+}
+
+.MonialImg:hover {
+
+
+
+}
+.hovering {
+    transition: transform 1s ease;
+    width: 100%;
+    padding: 20px;
+    opacity:1;
+
+}
+
+.hovering:hover {
+    transform: scale(1.05);
+}
+
+.hovering:hover .quota {
+    display: block;
+    transition: 2s; 
+ 
+}
+
+
+.Monials {
+    width:50%;
+    margin:auto;
+}
+.MonialRow {
+   padding-bottom:20px;
+    width:50%;
+}
+.quota {
+    display:none;
+    opacity:0.7;
+    font-size:17px;
+    word-wrap:break-word;
+    text-align:justify;
+    
+}
+
+.name {
+
+   
+
+}
+.name:hover {
+
+    color:fuchsia !important;
+   -webkit-text-stroke:0.5px rgb(246, 0, 0);
 }
