@@ -56,6 +56,23 @@ onMounted(() => {
  })
 </script>
 
-<style>
+<style scoped>
+.card {
+    opacity:0.3;
+    margin-left:10px;
+    margin:auto;
+    outline:2px solid fuchsia;
+    box-shadow:5px 5px 10px fuchsia;
+    width:18rem;
+    margin-bottom:30px;
+    
+}
+
+.card:hover {
+    
+    transform:scale(1.05,1.05);
+    opacity:1
+
+}
 
 </style>
