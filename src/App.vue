@@ -12,14 +12,14 @@
 </template>
 <script>
 import navbar from "@/components/navbar.vue" 
+import FooterComp from "@/components/FooterComp.vue"
 
 // import FooterComp from '@/components/FooterComp.vue'
 export default {
 components: {
 
   navbar,
-  
-  //  FooterComp
+    FooterComp
 }
 
 }

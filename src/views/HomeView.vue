@@ -30,6 +30,7 @@
     <section class="row" id="reachme">
       <ReachMePage/>
     </section>
+    
       </div>
 </template>
 
@@ -55,7 +56,8 @@ export default {
     ResumeComp,
     ProjectsPage,
     MonialsPage,
-    ReachMePage
+    ReachMePage,
+
  
   }
 }
