@@ -28,7 +28,7 @@
     <MonialsPage/>
     </section>
     <section class="row" id="reachme">
-    
+      <ReachMePage/>
     </section>
       </div>
 </template>
@@ -43,6 +43,7 @@ import WorkExpPage from "@/components/WorkExpPage.vue"
 import ResumeComp from "@/components/ResumeComp.vue"
 import ProjectsPage from "@/components/ProjectsPage.vue"
 import MonialsPage from "@/components/MonialsPage.vue"
+import ReachMePage from "@/components/ReachMePage.vue"
 export default {
   name: 'HomeView',
   components: {
@@ -53,7 +54,8 @@ export default {
     WorkExpPage,
     ResumeComp,
     ProjectsPage,
-    MonialsPage
+    MonialsPage,
+    ReachMePage
  
   }
 }

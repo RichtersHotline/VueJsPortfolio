@@ -468,3 +468,68 @@ img[alt="Testimage"] {
     color:fuchsia !important;
    -webkit-text-stroke:0.5px rgb(246, 0, 0);
 }
+/* Reach Me Styling */
+.ReachBG {
+
+  background-color:#170217;
+  outline:3px solid fuchsia;
+
+
+}
+#ContactForm {
+
+    width:50%;
+    margin:auto;
+    background-color:#170217;
+    border:none;
+    outline:3px solid fuchsia;
+    resize:none;
+    
+
+}
+#MsgSender {
+display:block;
+
+outline:2px solid fuchsia;
+background-color:#170217;
+color:#9E8BA0;
+    border-radius:7px;
+   margin:auto;
+   border:none;
+   margin-top:9px;
+   transition:0.8s;
+   text-align:center;
+   width:50%;
+height:40px;
+&:hover {
+    background-color:#251627;
+    color:white;
+
+}
+}
+
+input[type=text] {
+
+    color:white;
+    text-shadow:0.4px 0.4px fuchsia;
+
+}
+input[type=email] {
+
+    color:white;
+    text-shadow:0.4px 0.4px fuchsia;
+
+}
+
+input[type=number] {
+
+    color:white;
+    text-shadow:0.4px 0.4px fuchsia;
+
+}
+textarea {
+
+    color:white;
+    text-shadow:0.4px 0.4px fuchsia;
+
+}
