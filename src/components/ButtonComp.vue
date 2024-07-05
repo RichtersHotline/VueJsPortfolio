@@ -18,5 +18,14 @@ export default {
     width:58%;
     
     }
+  
+    .btn:hover {
 
+       
+            background-color:#251627;
+            color:white;
+        
+        
+
+    }
 </style>
