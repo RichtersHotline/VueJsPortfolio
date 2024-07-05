@@ -10,13 +10,18 @@
             <p>{{experiences[0].JobDescription}}</p>
 
           </div>
+          <LoadingSpinner v-else>
+                          
+          </LoadingSpinner>
           <div class="col" v-if="experiences?.length">
             <h2>{{experiences[1].jobN}}</h2>
             <h4>{{experiences[1].Company}}</h4>
             <h5>{{experiences[1].Length}}</h5>
             <p>{{experiences[1].JobDescription}}</p>
           </div>
-          
+          <LoadingSpinner v-else>
+                          
+          </LoadingSpinner>
         </div>
       </div>
   </div>

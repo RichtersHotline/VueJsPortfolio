@@ -3,9 +3,11 @@
         <div class="ProCon">
     <h1 class="text-center pt-4">Projects</h1>
     <div class="row align-items-center  g-0 ms-4 me-4 d-flex text-center Projects d-flex justify-content-center " v-if="projects?.length">
+        
         <CardComp v-for="tasks in projects" :key="tasks.Id">
             <template #cardHeader>
                 <img :src="tasks.ProjectThumb" class="card-img-top img-fluid" alt="Proimage" loading="lazy">
+                
                 
             </template>
             

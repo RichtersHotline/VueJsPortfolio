@@ -2,7 +2,7 @@
     
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <router-link class="navbar-brand" to="/"><img src="https://richtershotline.github.io/Pimages/Images/Logo.png" class="img-fluid" alt="logo" loading="lazy"></router-link>
+            <a href="#landing" class="navbar-brand"><img src="https://richtershotline.github.io/Pimages/Images/Logo.png" class="img-fluid" alt="logo" loading="lazy"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
