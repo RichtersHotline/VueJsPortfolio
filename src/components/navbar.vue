@@ -1,5 +1,4 @@
 <template>
-    
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a href="#landing" class="navbar-brand"><img src="https://richtershotline.github.io/Pimages/Images/Logo.png" class="img-fluid" alt="logo" loading="lazy"></a>
@@ -46,8 +45,7 @@ export default {
 <style scoped>
 .navbar {
 
-    position: -webkit-sticky;
-    position:sticky;
+
     top:0;
     z-index:9999;
     }
