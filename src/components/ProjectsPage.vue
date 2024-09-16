@@ -13,6 +13,9 @@
             
             <template #cardBody>
                 <h3 class="mb-4">{{tasks.ProjectName}}</h3>
+                <p>{{tasks.ProjectTagline}}</p>
+                <p class="Task">{{tasks.ProjectDesc}}</p>
+
                <div class="Buttons mx-auto">
                 <a :href=tasks.ProjectRepo target="_blank">
                     

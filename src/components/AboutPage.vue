@@ -1,61 +1,44 @@
 <template>
     <div class="container-fluid">
       <h1 class="text-center">About Me</h1> 
-      <h2 class="text-center">A brief introduction</h2> 
+      <h2 class="text-center">A Story About Keenan Timmie...</h2> 
       <div class="abouttxt mx-auto" v-if="aboutMe?.length">
-     <p>{{aboutMe[0]?.AboutMeText}}</p>
      <div class="AboutImg">
       <div class="container-fluid">
-          <div class="row text-center mx-auto" >
+          <div class="row text-center mx-auto aligner" >
             
             <div class="col">
               
               <img src="https://richtershotline.github.io/Pimages/Images/PortBalc3.jpg" class="img-fluid mt-3 mb-4" loading="lazy" alt="LandingPagePhoto">
+              <h2>Who I am</h2>
+              <p>{{aboutMe[0]?.AboutMeText}}</p>
+
             </div>
+            <div class="col">
+              <img src="https://richtershotline.github.io/Pimages/Images/Mitchalls_Plain_sign_rock.jpg" class="img-fluid mt-3 mb-4" loading="lazy" alt="LandingPagePhoto">
+              <h2>My Background</h2>
+              <p>{{aboutMe[1]?.AboutMeText}}</p>
+            </div>
+            <div class="col">
+              <img src="https://richtershotline.github.io/Pimages/Images/TrackAgain.jpg" class="img-fluid mt-3 mb-4" loading="lazy" alt="LandingPagePhoto">
+              <h2>Who I could be...</h2>
+              <p class="mb-4">{{aboutMe[2]?.AboutMeText}}</p>
+
+            </div>
+            
+            
           </div>
+          
          
   </div>
   
     </div>
     
-     <h2 class="text-center" v-if="aboutMe?.length">My Story</h2> 
-     <p>{{aboutMe[1]?.AboutMeText}}</p>
-     <div class="AboutImg">
-      <div class="container-fluid">
-          <div class="row text-center mx-auto">
-            <div class="col">
-              <img src="https://richtershotline.github.io/Pimages/Images/Mitchalls_Plain_sign_rock.jpg" class="img-fluid mt-3 mb-4" loading="lazy" alt="LandingPagePhoto">
-            </div>
-          </div>
-  
+    
   </div>
-  
-    </div>
-  </div>
-  <LoadingSpinner v-else>
-                          
-                        </LoadingSpinner>
-  <h2 class="text-center">My Aspirations</h2> 
-  <div class="abouttxt mx-auto" v-if="aboutMe?.length">
-      <p>{{aboutMe[2]?.AboutMeText}}</p>
-      <div class="AboutImg">
-          <div class="container-fluid">
-              <div class="row text-center mx-auto">
-                <div class="col">
-                  <img src="https://richtershotline.github.io/Pimages/Images/Find-True-Freedom-1536x960.png" class="img-fluid mt-3 mb-4" loading="lazy" alt="LandingPagePhoto">
-                </div>
-              </div>
-      
-      </div>
-      
-        </div>
-  
-  </div>
-  <LoadingSpinner v-else>
-                          
-                        </LoadingSpinner>
+ 
                        
-  <h2 class="text-center">My Hobbies</h2> 
+  <h1 class="text-center">My Hobbies</h1> 
   <div class="container-fluid">
       <div class="row text-center Hobbies g-0">
         <div class="col" v-if="aboutMe?.length">
@@ -86,7 +69,7 @@
       
     </div>
     <div class="container-fluid">
-      <h2 class="text-center">Miscellaneous Info</h2>
+      <h1 class="text-center">Other Info...</h1>
       <div class="row mx-auto text-center Misc mt-4">
         <div class="col" v-if="aboutMe?.length">
           <h2 class="text-center">Spoken Languages</h2> 

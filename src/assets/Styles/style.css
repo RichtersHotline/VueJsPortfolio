@@ -36,6 +36,11 @@ padding: 0;
 box-sizing:border-box;
 
 }
+h1 {
+
+    
+
+}
 /* All Elements */
 h1 ~ h2 {
 
@@ -176,8 +181,8 @@ text-decoration: underline;
             
                 }
                 img[alt="HobPhotos"] {
-                    width:25rem;
-                    height:25rem;
+                    width:23rem;
+                    height:23rem;
                     margin-top:0.4rem;
                   
                   box-shadow:5px 5px 10px fuchsia;
@@ -201,6 +206,13 @@ text-decoration: underline;
             /* Media queries */
             @media only screen and (max-width: 720px) {
               
+                .aligner {
+ display:flex;
+ flex-direction:column;
+
+
+                }
+
                 .respon {
 
 
@@ -337,6 +349,19 @@ text-decoration: underline;
     word-wrap: break-word;
 
             }
+            .aligner {
+                justify-content: center;
+                flex-wrap:nowrap;
+                display:flex;
+
+            }
+            .aligner p {
+             width:85%;
+            }
+            .aligner img {
+                width:23rem;
+                height:23rem;
+            }
    .Languages {
 
 text-align:center;
@@ -344,7 +369,18 @@ text-align:center;
    }
 
 /* Skills Styling */
+.Skills {
 
+    display:flex;
+ 
+
+
+}
+.Skimages {
+    margin-right:1px;
+    margin:auto;
+
+}
 img[alt="Skimage"] {
     height:4rem;
             width:4rem;
@@ -400,6 +436,12 @@ img[alt="Proimage"] {
     width:100%
         
          
+}
+.Task  {
+    
+
+
+
 }
 .ProCon {
 
