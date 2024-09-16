@@ -40,7 +40,7 @@
 <h5>Email Address</h5>
 <p>KeenanTimmieWeb@gmail.com</p>
 <h5>Location</h5>
-<p>Colorado Park, Cape Town</p>
+<p>Colorado Park, Mitchell's Plain</p>
 <h5>Mobile Number</h5>
 <p>065 045 1767</p>
 

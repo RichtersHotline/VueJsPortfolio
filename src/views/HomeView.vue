@@ -24,9 +24,9 @@
     <ProjectsPage/>
     </section>
     
-    <section class="row" id="testimonials">
+    <!-- <section class="row" id="testimonials">
     <MonialsPage/>
-    </section>
+    </section> -->
     <section class="row" id="reachme">
       <ReachMePage/>
     </section>
@@ -43,7 +43,7 @@ import EducationPage from "@/components/EducationPage.vue"
 import WorkExpPage from "@/components/WorkExpPage.vue"
 import ResumeComp from "@/components/ResumeComp.vue"
 import ProjectsPage from "@/components/ProjectsPage.vue"
-import MonialsPage from "@/components/MonialsPage.vue"
+// import MonialsPage from "@/components/MonialsPage.vue"
 import ReachMePage from "@/components/ReachMePage.vue"
 export default {
   name: 'HomeView',
@@ -55,7 +55,7 @@ export default {
     WorkExpPage,
     ResumeComp,
     ProjectsPage,
-    MonialsPage,
+    // MonialsPage,
     ReachMePage,
 
  

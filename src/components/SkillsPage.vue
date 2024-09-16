@@ -1,9 +1,10 @@
 <template>
-  <div class="container-fluid">
-    <h1 class="text-center mt-4">My Skills</h1> 
+      <h1 class="text-center mt-4">My Skills</h1> 
+
+  <div class="container-fluid Skills">
     <div class="SkillsCon mt-4">
         <div class="container-fluid Skimages mb-4">
-            <div class="row mx-auto text-center Skimages">
+            <div class="row mx-auto text-center Skimages ml-1">
               <div class="col mt-3" v-if="skills?.length">
                 <img src="https://richtershotline.github.io/Pimages/Images/732212.png" class="img-fluid p-1 mt-3" loading="lazy" alt="Skimage">
                 <p>{{skills[0].Skill}}</p>
