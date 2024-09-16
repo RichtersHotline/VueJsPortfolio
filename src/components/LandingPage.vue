@@ -2,13 +2,11 @@
     <div class="container-fluid BG">
         <div class="row align-items-center respon">
           <div class="col">
-              <img src="https://richtershotline.github.io/Pimages/Images/PortBalc3.jpg" class="img-fluid mt-3 mb-4" loading="lazy" alt="LandingPagePhoto">
+              <!-- <img src="https://richtershotline.github.io/Pimages/Images/PortBalc3.jpg" class="img-fluid mt-3 mb-4" loading="lazy" alt="LandingPagePhoto"> -->
             </div>
-              <div class="col text-center" v-if="jobTitle?.length">
-                
-                  <h1>Keenan Timmie</h1>
-                  <h2 class="fst-italic text-center" >{{jobTitle[1]?.jobName}}</h2>
-                 
+              <div class="col text-center Heighter" v-if="jobTitle?.length">
+                  <h1 class="">Keenan Timmie</h1>
+                  <h2 class="fst-italic text-center Title " >{{jobTitle[1]?.jobName}}</h2>
               </div>
               <LoadingSpinner v-else>
           
