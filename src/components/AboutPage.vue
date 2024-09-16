@@ -51,7 +51,7 @@
                         </LoadingSpinner>
         <div class="col" v-if="aboutMe?.length">
           <h2>Reading</h2>
-          <h4>{{aboutMe[4]?.HobbyFav}}</h4>
+          <h4 >{{aboutMe[4]?.HobbyFav}}</h4>
           <img :src="aboutMe[4]?.HobbyImg" class="img-fluid mt-3 mb-4" loading="lazy" alt="HobPhotos">>
         </div>
         <LoadingSpinner v-else>
@@ -71,7 +71,7 @@
     <div class="container-fluid">
       <h1 class="text-center">Other Info...</h1>
       <div class="row mx-auto text-center Misc mt-4">
-        <div class="col" v-if="aboutMe?.length">
+        <div class="col Divide" v-if="aboutMe?.length">
           <h2 class="text-center">Spoken Languages</h2> 
           <h4>{{aboutMe[6]?.SpokenLang}}</h4>  
           <h4>{{aboutMe[7]?.SpokenLang}}</h4> 
@@ -80,11 +80,11 @@
         <LoadingSpinner v-else>
                           
                         </LoadingSpinner>
-        <div class="col">
+        <div class="col Divide">
           <h2 class="text-center">Date Of Birth</h2> 
           <h4>9 March 2002</h4>  
         </div>
-        <div class="col">
+        <div class="col Divide">
           <h2 class="text-center" v-if="aboutMe?.length">Favourite Quote</h2> 
           <LoadingSpinner v-else>
                           
@@ -96,7 +96,7 @@
       </div>
       
       <div class="row mx-auto text-center Misc mt-4">
-          <div class="col">
+          <div class="col Divide">
             <h2 class="text-center" v-if="aboutMe?.length">Favourite End</h2> 
             <LoadingSpinner v-else>
                           
@@ -105,14 +105,14 @@
             
           </div>
           
-          <div class="col">
+          <div class="col Divide">
             <h2 class="text-center" v-if="aboutMe?.length">Favourite site</h2> 
             <LoadingSpinner v-else>
                           
                         </LoadingSpinner>
             <h4 v-if="aboutMe?.length">{{aboutMe[11]?.Site}}</h4>  
           </div>
-          <div class="col" v-if="aboutMe?.length">
+          <div class="col Divide" v-if="aboutMe?.length">
             <h2 class="text-center">Best Quality</h2> 
        <h4 v-if="aboutMe?.length">{{aboutMe[12]?.Quality}}</h4>
           </div>
