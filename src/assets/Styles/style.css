@@ -152,6 +152,7 @@ opacity:1
    padding:0;
    background-repeat: no-repeat;
    background-size: cover;
+   
 }
 .Heighter {
 position:relative;
@@ -170,6 +171,9 @@ width:100%;
     left: 0;
     width: 100%;
     height: 100%;
+    background: rgb(43,29,68);
+    background: linear-gradient(0deg, rgba(23, 2, 23, 1) 0%, rgba(23,2,23,0) 100%);
+    
 }
 .BG img {
 
@@ -222,6 +226,15 @@ text-decoration: underline;
             width:9rem;
             object-fit:cover;
             object-position:center;
+        }
+        .Header {
+            background-color:#170217;
+            border-right:3px solid fuchsia;
+            
+            padding-bottom:10px;
+            width:80%;
+            margin:auto;
+           height:25vh;
         }
             img[alt="AboutPhoto"] {
                 height:20.5rem;
@@ -403,9 +416,11 @@ position:static;
             }
         .Divide {
 
- 
-            border-right:3px solid white !important;
-            box-shadow:
+        width:50%;
+        margin:auto;
+        margin-top:20px;
+        border-bottom:2px solid fuchsia;
+           
                          
         }
    .Languages {
@@ -442,13 +457,14 @@ img[alt="Skimage"]:hover {
 
 }
 .SkillsCon {
+    background-color:#170217;
     outline:3px solid fuchsia;
     box-shadow:5px 5px 10px fuchsia;
     animation: BoardFade ease 4s;
 animation-iteration-count: infinite;
 animation-fill-mode:forwards;
 animation-direction:alternate;
-    background-color:#170217;
+    
     width:50%;
     margin:auto;
  }
