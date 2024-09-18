@@ -1,7 +1,7 @@
 <template>
 <div class="Position">
     <a href="#landing">
-  <button  type="button" class="Back2Top">Back To Top</button>
+  <button  type="button" class="Back2Top">Back tTo Top</button>
 </a>
 </div>
 </template>
