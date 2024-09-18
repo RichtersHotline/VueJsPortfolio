@@ -159,10 +159,14 @@ opacity:1
    
 }
 .Heighter {
-position:relative;
-top:290px !important;
-left:39px !important;
-width:100% !important;
+   overflow:hidden;
+   position: absolute;
+   top: 50%;
+   left: 50;
+   transform: translate(-50%, -50%);
+   width: 100%; /* Adjust as needed */
+   max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+   box-sizing: border-box;
 }
 .Items {
 position:relative;
