@@ -107,7 +107,7 @@ transition: 5s;
     margin:auto;
     outline:2px solid fuchsia;
     box-shadow:5px 5px 10px fuchsia;
-    width:17.3rem !important;
+    width:17rem !important;
 }
 
 .Cards {
