@@ -111,7 +111,6 @@ transition: 5s;
 }
 .Education {
 margin:auto;
-  margin-left:20px !important;
 }
 }
 </style>
