@@ -24,7 +24,7 @@
                 </a>
                 <a :href=tasks.ProjectLive target="_blank">
                     
-                    <button type="button"  class="btnPro">Vercel</button>
+                    <button type="button"  class="btnPro">Live</button>
 
                 </a>
              

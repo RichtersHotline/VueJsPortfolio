@@ -30,7 +30,9 @@
     <section class="row" id="reachme">
       <ReachMePage/>
     </section>
-    
+    <Back2Top>
+      
+    </Back2Top>
       </div>
 </template>
 
@@ -45,6 +47,7 @@ import ResumeComp from "@/components/ResumeComp.vue"
 import ProjectsPage from "@/components/ProjectsPage.vue"
 // import MonialsPage from "@/components/MonialsPage.vue"
 import ReachMePage from "@/components/ReachMePage.vue"
+import Back2Top from '@/components/Back2Top.vue'
 export default {
   name: 'HomeView',
   components: {
@@ -57,7 +60,8 @@ export default {
     ProjectsPage,
     // MonialsPage,
     ReachMePage,
-
+    // Back to top button
+    Back2Top
  
   }
 }
