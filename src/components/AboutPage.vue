@@ -67,10 +67,7 @@
       </div>
       
     </div>
-    <div class="Divide mb-5 mt-5">
 
-
-    </div>
     <div class="container-fluid">
       <h1 class="text-center mt-4">Other Info...</h1>
       <div class="row mx-auto text-center Misc mt-4">

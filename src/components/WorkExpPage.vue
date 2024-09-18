@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid">
-    <h1 class="text-center">Work Experience</h1> 
+  <div class="container-fluid Exp">
+    <h1 class="text-center mt-5">Work Experience</h1> 
     <div class="container-fluid text-center">
         <div class="row align-items-center text-center mx-auto d-flex flex-column">
           <div class="col" v-if="experiences?.length">

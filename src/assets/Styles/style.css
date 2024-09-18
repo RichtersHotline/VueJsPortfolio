@@ -236,6 +236,16 @@ text-decoration: underline;
             margin:auto;
            height:25vh;
         }
+        .Exp h2 {
+            font-weight:bold !important;
+
+
+        }
+        .Exp h4 {
+
+            font-weight:lighter !important;
+
+        }
             img[alt="AboutPhoto"] {
                 height:20.5rem;
                         width:20.5rem;
@@ -246,10 +256,94 @@ text-decoration: underline;
             }
             /* Media queries */
             @media only screen and (max-width: 720px) {
+                img[alt="logo"] {
+                position:absolute;
+                top:-13vh !important; 
+                width:9rem;
+                object-fit:cover;
+                object-position:center;
+            }
+            .navbar-toggler {
+                background-color:#170217 !important;
+
+            }
+#ContactForm {
+
+    width:75%;
+    margin:auto;
+    border:none;
+    outline:3px solid fuchsia;
+    resize:none;
+
+}
+.Desc {
+
+
+}
+.Info {
+
+}
+.ReachBG {
+
+    outline:3px solid fuchsia;
+     width:100% !important;
+     margin:auto;
+  
+  }
+                .SkillsCon {
+                    background-color:#170217;
+                    outline:3px solid fuchsia;
+                    box-shadow:5px 5px 10px fuchsia;
+                    animation: BoardFade ease 4s;
+                animation-iteration-count: infinite;
+                animation-fill-mode:forwards;
+                animation-direction:alternate;
+                    
+                    width:19rem;
+                    margin:auto;
+                 }
+
+                .Skills {
+
+                    flex-direction:column;
+
+                }
+                .BG:before {
+
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgb(43,29,68);
+                    background: none;
+                    height:100vh;
+                    
+                }
+                .Divide {
+
+                    display:none;
+
+                }
+                .Header {
+
+                    display:none;
+
+                }
+
                 .Heighter {
                     margin-top:40px !important;
-                    height:90vh;
-position:static;                    
+                    top:-20vh;
+                    right:50px;
+position:relative;                    
+
+                }
+                .navbar-nav {
+margin-top:120px;
+                }
+                .navbar-toggler {
+                display:none;
 
                 }
               
@@ -266,7 +360,8 @@ position:static;
 
                 .respon {
 
-
+position:absolute;
+bottom:58vh !important;
         flex-direction:column;
                 }
 
@@ -292,12 +387,10 @@ position:static;
                 }
                 .BG {
 
-                    background-size:contain;
-                    height:30vh;
+                    height:70vh;
 
                 }
                 .Skimages {
-
    display:flex;
    flex-direction:column;
                     
@@ -472,8 +565,8 @@ animation-direction:alternate;
  .Cards {
 
     display:flex;
-    margin-left:10px;
-    padding:10px;
+    /* margin-left:10px; */
+    /* padding:10px; */
 
 }
     img[alt="Eduimage"] {
@@ -561,6 +654,12 @@ img[alt="Testimage"] {
     display: block;
     transition: 2s; 
  
+}
+.Info {
+
+    text-align:center;
+
+
 }
 
 
