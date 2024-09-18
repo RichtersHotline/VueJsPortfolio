@@ -109,6 +109,12 @@ transition: 5s;
     box-shadow:5px 5px 10px fuchsia;
     width:12rem !important;
 }
+
+.Cards {
+
+  width:50%;
+
+}
 .Education {
 position:relative;
 right:-1vh;
