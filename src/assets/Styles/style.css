@@ -162,7 +162,7 @@ width:100% !important;
 }
 .Items {
 position:relative;
-left:50vh;
+left:47vh;
 
 }
 .navbar-nav {
@@ -179,7 +179,7 @@ left:50vh;
     top: 0;
     left: 0;
     width: 100% !important;
-    height: 100% !important;
+    height: 100vh !important;
     background: rgb(43,29,68);
     background: linear-gradient(0deg, rgba(23, 2, 23, 1) 0%, rgba(23,2,23,0) 100%);
     
@@ -265,6 +265,11 @@ text-decoration: underline;
             }
             /* Media queries */
             @media only screen and (max-width: 720px) {
+                .Items {
+                    position:relative;
+                    left:-15vh;
+                    
+                    }
                 img[alt="logo"] {
                 position:absolute;
                 top:-13vh !important; 
