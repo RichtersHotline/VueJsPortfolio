@@ -1,8 +1,9 @@
 <template>
         <div class="container-fluid">
         <div class="EduCon">
-            <h1 class="text-center pt-4">Education</h1>
-            <div class="row align-items-center p-2 ms-4 me-4">
+            <div class="row align-items-center Education">
+              <h1 class="text-center pt-4">Education</h1>
+
              <p class="Info">*Please hover/tap on/over names to see additional details</p>
         
                     <div class="Cards text-center mx-auto" v-if="education?.length">
@@ -76,6 +77,11 @@ onMounted(() => {
 position:relative;
 
 }
+.Info {
+
+  text-align:center;
+
+}
 .EducationCon:hover {
 
   transform: scale(1.01);
@@ -101,8 +107,11 @@ transition: 5s;
     margin:auto;
     outline:2px solid fuchsia;
     box-shadow:5px 5px 10px fuchsia;
-    width:15rem;
-    margin-left:-18px !important;
+    width:15rem !important;
+}
+.Education {
+margin:auto;
+  margin-left:20px !important;
 }
 }
 </style>
