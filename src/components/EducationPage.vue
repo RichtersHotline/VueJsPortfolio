@@ -103,11 +103,11 @@ transition: 5s;
   .card {
     opacity:0.5;
     transition:2s;
-    margin-top:10px !important;
+    margin-top:30px !important;
     margin:auto;
     outline:2px solid fuchsia;
     box-shadow:5px 5px 10px fuchsia;
-    width:12rem !important;
+    width:17.5rem !important;
 }
 
 .Cards {
