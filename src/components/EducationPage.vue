@@ -110,7 +110,8 @@ transition: 5s;
     width:12rem !important;
 }
 .Education {
-margin:auto;
+position:relative;
+right:-1vh;
 }
 }
 </style>
