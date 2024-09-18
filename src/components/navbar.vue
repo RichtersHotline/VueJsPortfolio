@@ -6,7 +6,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse show navbar-collapse " id="navbarNav">
-            <ul class="navbar-nav mx-auto">
+            <ul class="navbar-nav Items">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#landing">Home</a>
               </li>
