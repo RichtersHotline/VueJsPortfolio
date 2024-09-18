@@ -6,7 +6,7 @@
 
              <p class="Info">*Please hover/tap on/over names to see additional details</p>
         
-                    <div class="Cards text-center mx-auto" v-if="education?.length">
+                    <div class="Cards text-center" v-if="education?.length">
                         
                         <CardComp v-for="Edu in education" :key="Edu.Id">
                             
