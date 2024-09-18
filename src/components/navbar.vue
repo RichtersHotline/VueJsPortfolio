@@ -14,14 +14,11 @@
                 <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#resume">Resume</a>
+                <a class="nav-link" href="#resume">Education &amp; Experience</a>
               </li>
 
               <li class="nav-item">
                 <a class="nav-link" href="#project">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#testimonials">Testimonials</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#reachme">Reach Me</a>
