@@ -67,7 +67,7 @@
       </div>
       
     </div>
-    <div class="Divide">
+    <div class="Divide mb-5 mt-5">
 
 
     </div>
@@ -77,9 +77,9 @@
         <div class="col" v-if="aboutMe?.length">
           <div class="Header">
           <h2 class="text-center">Spoken Languages</h2> 
-          <h4>{{aboutMe[6]?.SpokenLang}}</h4>  
-          <h4>{{aboutMe[7]?.SpokenLang}}</h4> 
-          <h4>{{aboutMe[8]?.SpokenLang}}</h4>
+          <h4>{{aboutMe[9]?.SpokenLang}}</h4>  
+          <h4>{{aboutMe[10]?.SpokenLang}}</h4> 
+          <h4>{{aboutMe[11]?.SpokenLang}}</h4>
         </div>
         </div>
         <LoadingSpinner v-else>
@@ -94,7 +94,7 @@
           <LoadingSpinner v-else>
                           
                         </LoadingSpinner>
-     <h4 v-if="aboutMe?.length">{{aboutMe[9]?.Quote}}</h4>
+     <h4 v-if="aboutMe?.length">{{aboutMe[12]?.Quote}}</h4>
      
         </div>
         
@@ -106,7 +106,7 @@
             <LoadingSpinner v-else>
                           
                         </LoadingSpinner>
-            <h4  v-if="aboutMe?.length">{{aboutMe[10]?.Dev}}</h4> 
+            <h4  v-if="aboutMe?.length">{{aboutMe[13]?.Dev}}</h4> 
             
           </div>
           
@@ -115,11 +115,11 @@
             <LoadingSpinner v-else>
                           
                         </LoadingSpinner>
-            <h4 v-if="aboutMe?.length">{{aboutMe[11]?.Site}}</h4>  
+            <h4 v-if="aboutMe?.length">{{aboutMe[14]?.Site}}</h4>  
           </div>
           <div class="col" v-if="aboutMe?.length">
             <h2 class="text-center">Best Quality</h2> 
-       <h4 v-if="aboutMe?.length">{{aboutMe[12]?.Quality}}</h4>
+       <h4 v-if="aboutMe?.length">{{aboutMe[15]?.Quality}}</h4>
           </div>
           <LoadingSpinner v-else>
                           
