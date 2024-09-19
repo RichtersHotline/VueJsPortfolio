@@ -276,6 +276,7 @@ text-decoration: underline;
             @media only screen and (max-width: 720px) {
                 .Items {
                     position:relative;
+                    top:17vh;
                     left:-15vh;
                     
                     }
@@ -356,11 +357,10 @@ text-decoration: underline;
                 }
 
                 .Heighter {
-                    margin-top:40px !important;
-                    top:-20vh;
-                    right:50px;
-position:relative;                    
-
+                    position:relative;
+                    top: -7vh;
+                    left:15.9vh;
+                    width: 100% !important; 
                 }
                 .navbar-nav {
 margin-top:120px;
