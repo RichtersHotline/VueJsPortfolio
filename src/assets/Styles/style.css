@@ -150,6 +150,7 @@ opacity:1
 /* Landing Page Styling */
 
 .BG {
+    overflow:hidden;
     background-image:url("https://richtershotline.github.io/Pimages/Images/Wallpaper.gif");
    height:100vh !important;
    margin:0;
@@ -160,12 +161,12 @@ opacity:1
 }
 .Heighter {
    overflow:hidden;
-   position: absolute;
+   position:absolute;
    top: 50%;
-   left: 50;
+   left:53%;
    transform: translate(-50%, -50%);
-   width: 100%; /* Adjust as needed */
-   max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+   width: 50% !important; 
+   max-width: 50%;
    box-sizing: border-box;
 }
 .Items {
@@ -370,7 +371,7 @@ margin-top:120px;
                 }
               
               main {
-
+         
 
               }
                 .aligner {
@@ -408,7 +409,7 @@ bottom:58vh !important;
 
                 }
                 .BG {
-
+ 
                     height:70vh;
 
                 }
