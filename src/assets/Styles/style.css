@@ -357,11 +357,14 @@ text-decoration: underline;
                 }
 
                 .Heighter {
-                    position:relative;
-                    top: -1vh;
+                    position:absolute;
+                    top: -17vh;
                     left:15.9vh;
-                    width: 100% !important; 
+                    width: 1000px !important;
+                    max-width:12rem  !important;
+                    
                 }
+
                 .navbar-nav {
 margin-top:120px;
                 }
