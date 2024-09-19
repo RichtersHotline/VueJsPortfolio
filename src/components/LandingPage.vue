@@ -4,9 +4,9 @@
           <div class="col">
               <!-- <img src="https://richtershotline.github.io/Pimages/Images/PortBalc3.jpg" class="img-fluid mt-3 mb-4" loading="lazy" alt="LandingPagePhoto"> -->
             </div>
-              <div class="col text-center Heighter" v-if="jobTitle?.length">
+              <div class="col Heighter" v-if="jobTitle?.length">
                   <h1 class="">Keenan Timmie</h1>
-                  <h2 class="fst-italic text-center Title " >{{jobTitle[1]?.jobName}}</h2>
+                  <h2 class="fst-italic Title " >{{jobTitle[1]?.jobName}}</h2>
               </div>
               <LoadingSpinner v-else>
           
