@@ -21,7 +21,7 @@
           </div>
           <div class="col d-flex flex-column">
             <h2>CV Download</h2>
-            <a href="https://mega.nz/file/iToDgYDC#H4ZJWphJm7sya2HiHvVHAQBd_8_dPz5kaajy3sLSrTE" target="_blank" download ="KCV">
+            <a href="https://mega.nz/file/lwgw0Tra#KpOhYfpkMHvTLW38wyXuX1ZTndI60LSNL5ccMu2xDyU" target="_blank" download ="KCV">
                 <ButtonComp/>
                 </a>
                
