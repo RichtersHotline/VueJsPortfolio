@@ -119,8 +119,27 @@ text-shadow:5px 5px 10px fuchsia;
 a {
 
     text-decoration:none;
-}
 
+}
+.Archive {
+
+    outline:2px solid fuchsia;
+    box-shadow:5px 5px 10px fuchsia;
+    background-color:#310335;
+    color:#9E8BA0;
+    width:20%;
+    border-radius:12px !important;
+    border:none;
+    padding:0.625rem;
+    
+}
+.Archive:hover {
+
+    background-color:#251627;
+    color:white;
+
+
+}
 /* Animations */
 @keyframes BoardFade {
 

@@ -30,6 +30,12 @@
 
           </div>
         </div>
+        <h1 class="text-center mt-4">Case Studies</h1>
+        <p class="text-center">An archive of notes and plans about my hackathons</p>
+        <h2>Archive</h2>
+        <a href="https://www.dropbox.com/scl/fi/i9ewhgrcqy4nmlkdkjv2v/Case-Study.zip?rlkey=k2outm3f9s687it0yawjhlyib&st=boos5l32&dl=0" target="_blank" download ="KCV">
+          <button class="Archive" type="button">Download</button>
+                </a>
       </div>
 
 </div>
